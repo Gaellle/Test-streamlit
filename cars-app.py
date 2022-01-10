@@ -72,7 +72,7 @@ def graph4(data):
     fig4 = px.scatter(data, x='mpg', y='time-to-60', color = 'continent',trendline="ols",
                  title = 'Correlation between fuel consumption and acceleration', 
                  labels = {'time-to-60' : 'Acceleration measured in time to 60 mph (in sec.)', 'continent':'Continent', 'mpg' : 'Efficiency (in MPG - miles per gallon)'},
-                 color_discrete_sequence=["mediumseagreen",'coral','crimson'],)
+                 color_discrete_sequence=["mediumseagreen",'coral','crimson'])
     fig4.update_layout(title_x=0.5,  legend=dict(
                               orientation="h",
                               yanchor="bottom",
