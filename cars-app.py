@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import statsmodels.api as sm
 
 
 st.title('Analysis of cars features between 1971 and 1983')
